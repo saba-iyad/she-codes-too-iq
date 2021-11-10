@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="tailwindcss.css" rel="stylesheet">
+
+    <!--  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">  -->
+   
+
+    <title>she codes too;</title>
+
+</head>
+<body class=" bg-gray-700 "  >
+
+    <div  class="  bg-gray-700 text-white px-16  " >
+      
+        <div class="  flex w-full bg-gray-700 grid grid-cols-1 md:grid-cols-2  justify-between text-xl px-16 py-6  space-x-7 " >
+          
+          <div class="flex   " > 
+               
+                <div >
+                    <svg width="86" height="40" viewBox="0 0 86 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20.2909 6L2 16.6941" stroke="#FFFDFD" stroke-width="2"/>
+                    <path d="M19.2909 30.2589L1 16" stroke="white" stroke-width="2"/>
+                    <path d="M67 29.6942L85.2909 19" stroke="#FFFDFD" stroke-width="2"/>
+                    <path d="M66.7094 5.4682L85 19.7272" stroke="#FFFDFD" stroke-width="2"/>
+                    <path d="M37 26L37.025 37.9993" stroke="#F3DB05" stroke-opacity="0.88" stroke-width="3"/>
+                    <path d="M29 33H45" stroke="#F3DB05" stroke-opacity="0.88" stroke-width="3"/>
+                    <path d="M65 1L48 39" stroke="#FFFDFD" stroke-width="2"/>
+                    <path d="M46.8044 13.1895C46.8044 19.8741 42.2145 24.879 37.025 24.879C31.8356 24.879 27.2456 19.8741 27.2456 13.1895C27.2456 6.50486 31.8356 1.5 37.025 1.5C42.2145 1.5 46.8044 6.50486 46.8044 13.1895Z" stroke="#F3DB05" stroke-opacity="0.99" stroke-width="3"/>
+                    </svg>
+                    
+                </div>
+                <h1 class="text-3xl px-3 ">  She Codes Too;</h1>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3" >
+              <div class="mx-2">
+                <a href="#home" class="border rounded-lg  px-4 py-1  bg-gray-600 hover:bg-yellow-300 focus:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-opacity-50 text-white hover:text-gray-800 focus:text-gray-800 underline cursor-pointer ...">HOME </a>
+              </div>
+              <div class=" mx-2 ">
+                <a href="#courses" class="border rounded-lg px-4 py-1 bg-gray-600 hover:bg-yellow-300 focus:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-opacity-50 text-white hover:text-gray-800 focus:text-gray-800 underline cursor-pointer ...">COURSES</a>
+              </div>
+              <div class="mx-6">
+                <a href="#ABOUT" class="border rounded-lg  px-4 py-1 bg-gray-600 hover:bg-yellow-300 focus:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-opacity-50 text-white hover:text-gray-800 focus:text-gray-800 underline cursor-pointer...">ABOUT</a>
+              </div>
+              </div>            
+        </div>
+      
+
+        <!--hero-->
+        <div id="home" class="flex grid grid-cols-1 md:grid-cols-2 justify-between items-center mt-20 ">
+    
+            <div id="app" >
+                <h1 class="text-6xl font-bold">
+                    She Codes Too;
+                    
+                </h1>
+                <p class="mt-4  text-3xl text-yellow-400">
+                    Empower Women to Code
+                </p>
+                <div class="inline-block rounded-lg hover:underline hover:bg-gray-100 hover:text-gray-800 text-4xl opacity-75"> 
+       
+                <a  @click="activ ='sacshin1'"  class="activ =='sacshin1'? 'text-4xl ' "  >to contact click her</a>
+
+                </div>
+                <div v-if="activ =='sacshin1'" >
+                <div  class="col-start-1 row-start-3 space-y-3 ">
+                    <p class="flex items-center text-white text-xl font-medium">
+                      <img src="inestigram.svg" alt="" class="w-10 h-10 mt-5 rounded-full mr-2 bg-gray-100">
+                      <button type="button" class=" hover:bg-yellow-300 hover:text-gray-800 mt-5 text-white text-base font-semibold px-6 py-2 rounded-full"> she.codes.too.iq</button>
+          
+                    </p>
+                  </div>
+                  <div class="col-start-1 row-start-3 space-y-3 ">
+                    <p class="flex items-center text-white text-xl font-medium">
+                      <img src="mail (1).svg" alt="" class="w-10 h-10 mt-5 rounded-full mr-2 bg-gray-100">
+                      <button type="button" class="  hover:bg-yellow-300 hover:text-gray-800  mt-5 text-white text-base font-semibold px-6 py-2 rounded-full"> she.codes.too.iq@gmail.com</button>
+          
+                    </p>
+                  </div>
+                  <div class="col-start-1 row-start-3 space-y-3 ">
+                    <p class="flex items-center text-white text-xl font-medium">
+                      <img src="facebook.svg" alt="" class="w-10 h-10 mt-5 rounded-full mr-2 bg-gray-100">
+                      <button type="button" class=" hover:bg-yellow-300 hover:text-gray-800  mt-5 text-white text-base font-semibold px-6 py-2 rounded-full">She Codes Too</button>
+          
+                    </p>
+                  </div>
+                  </div>
+
+            </div>
+
+            <div >
+                <img src="undraw_voice_interface_eckp.svg" alt="">
+            </div>
+
+        </div>
+    </div>
+    <!--2-->
+         <div class=" my-14 mx-16  grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-8">
+                
+        
+                <div class="w-full flex shadow-lg">
+                    <div class=" py-8   bg-gray-100 border-0 rounded-md  flex  flex-col place-items-center space-x-4 ">
+                        <div class=" h-20 w-20 flex items-center justify-center">
+                            <img src="woman-employee.svg" ></div>
+                        <h1 class="text-xl ">
+                           Workshops
+                           
+                        </h1>
+                        <p class="mt-4   text-gray-500">
+                           She Codes Too offers comprehensive workshops on modern web development.
+                        </p>
+                    </div>
+                </div>
+                <div class=" py-8  bg-gray-100 border-0 rounded-md  flex  flex-col place-items-center    space-x-4 ">
+                    <div class=" h-20 w-20 flex items-center justify-center">
+                    <img src="handover.svg">
+                    </div>
+                    <h1 class="text-xl ">
+                        Mentorships
+                       
+                    </h1>
+                    <p class="mt-4   text-gray-500">
+                        Through mentorships participants are guided by industry experts.
+                    </p>
+                </div>
+                <div class="py-8  bg-gray-100 border-0 rounded-md  flex  flex-col place-items-center    space-x-4 ">
+                    <div class=" h-20 w-20 flex items-center justify-center">
+                    <img src="employee.svg" >
+                    </div>
+                    <h1 class="text-xl ">
+                        Job Opportunities 
+                       
+                    </h1>
+                    <p class="mt-4   text-gray-500">
+                       She Codes Too are passionate about enabling participants to secure their dream job in tech.
+                    </p>
+                </div>
+                
+                <div class=" py-8  bg-gray-100 border-0 rounded-md  flex  flex-col place-items-center    space-x-4 ">
+                    <div class=" h-20 w-20 flex items-center justify-center">
+                         <svg width="90" height="90" viewBox="0 0 66 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g filter="url(#filter0_d_119:19)">
+                            <ellipse cx="33" cy="30.3846" rx="26.5263" ry="22.6154" stroke="#140C0C" stroke-width="3"/>
+                            <path d="M40.25 24.5C40.25 27.5376 37.1571 30.25 33 30.25C28.8429 30.25 25.75 27.5376 25.75 24.5C25.75 21.4624 28.8429 18.75 33 18.75C37.1571 18.75 40.25 21.4624 40.25 24.5Z" stroke="black" stroke-width="1.5"/>
+                            <line x1="33.0317" y1="29.5904" x2="32.7497" y2="39.0224" stroke="black" stroke-width="1.5"/>
+                            <path d="M37 34.75H29" stroke="black" stroke-width="1.5"/>
+                            <path d="M42.1026 7.55417C42.1026 9.25576 41.1872 10.8718 39.5578 12.0964C37.928 13.3212 35.6309 14.1083 33.0513 14.1083C30.4716 14.1083 28.1745 13.3212 26.5448 12.0964C24.9154 10.8718 24 9.25576 24 7.55417C24 5.85257 24.9154 4.23656 26.5448 3.01196C28.1745 1.78708 30.4716 1 33.0513 1C35.6309 1 37.928 1.78708 39.5578 3.01196C41.1872 4.23656 42.1026 5.85257 42.1026 7.55417Z" fill="#E5E5E5" stroke="black" stroke-width="2"/>
+                            <path d="M24.1026 42.933C24.1026 44.6346 23.1872 46.2506 21.5578 47.4752C19.928 48.7001 17.6309 49.4872 15.0513 49.4872C12.4716 49.4872 10.1745 48.7001 8.54475 47.4752C6.91535 46.2506 6 44.6346 6 42.933C6 41.2314 6.91535 39.6154 8.54475 38.3908C10.1745 37.1659 12.4716 36.3788 15.0513 36.3788C17.6309 36.3788 19.928 37.1659 21.5578 38.3908C23.1872 39.6154 24.1026 41.2314 24.1026 42.933Z" fill="#E5E5E5" stroke="black" stroke-width="2"/>
+                            <path d="M60 42.933C60 44.6346 59.0847 46.2506 57.4553 47.4752C55.8255 48.7001 53.5284 49.4872 50.9487 49.4872C48.3691 49.4872 46.072 48.7001 44.4422 47.4752C42.8128 46.2506 41.8974 44.6346 41.8974 42.933C41.8974 41.2314 42.8128 39.6154 44.4422 38.3908C46.072 37.1659 48.3691 36.3788 50.9487 36.3788C53.5284 36.3788 55.8255 37.1659 57.4553 38.3908C59.0847 39.6154 60 41.2314 60 42.933Z" fill="#E5E5E5" stroke="black" stroke-width="2"/>
+                            <path d="M21.859 46.4865C21.859 47.1502 21.2894 47.8943 20.0377 48.5021C18.8203 49.0934 17.1032 49.4731 15.1795 49.4731C13.2557 49.4731 11.5387 49.0934 10.3212 48.5021C9.06956 47.8943 8.5 47.1502 8.5 46.4865C8.5 45.8229 9.06956 45.0788 10.3212 44.471C11.5387 43.8797 13.2557 43.5 15.1795 43.5C17.1032 43.5 18.8203 43.8797 20.0377 44.471C21.2894 45.0788 21.859 45.8229 21.859 46.4865Z" fill="#E5E5E5" stroke="black"/>
+                            <path d="M57.859 46.4865C57.859 47.1502 57.2894 47.8943 56.0377 48.5021C54.8203 49.0934 53.1032 49.4731 51.1795 49.4731C49.2557 49.4731 47.5387 49.0934 46.3212 48.5021C45.0696 47.8943 44.5 47.1502 44.5 46.4865C44.5 45.8229 45.0696 45.0788 46.3212 44.471C47.5387 43.8797 49.2557 43.5 51.1795 43.5C53.1032 43.5 54.8203 43.8797 56.0377 44.471C57.2894 45.0788 57.859 45.8229 57.859 46.4865Z" fill="#E5E5E5" stroke="black"/>
+                            <path d="M39.859 10.4865C39.859 11.1502 39.2894 11.8943 38.0377 12.5021C36.8203 13.0934 35.1032 13.4731 33.1795 13.4731C31.2557 13.4731 29.5387 13.0934 28.3212 12.5021C27.0696 11.8943 26.5 11.1502 26.5 10.4865C26.5 9.82286 27.0696 9.0788 28.3212 8.47095C29.5387 7.87972 31.2557 7.5 33.1795 7.5C35.1032 7.5 36.8203 7.87972 38.0377 8.47095C39.2894 9.0788 39.859 9.82286 39.859 10.4865Z" fill="#E5E5E5" stroke="black"/>
+                            <path d="M17.2436 41.3244C17.2436 42.2383 16.2857 43.1487 14.8718 43.1487C13.4579 43.1487 12.5 42.2383 12.5 41.3244C12.5 40.4104 13.4579 39.5 14.8718 39.5C16.2857 39.5 17.2436 40.4104 17.2436 41.3244Z" fill="#E5E5E5"/>
+                            <path d="M17.2436 41.3244C17.2436 42.2383 16.2857 43.1487 14.8718 43.1487C13.4579 43.1487 12.5 42.2383 12.5 41.3244C12.5 40.4104 13.4579 39.5 14.8718 39.5C16.2857 39.5 17.2436 40.4104 17.2436 41.3244Z" fill="#E5E5E5"/>
+                            <path d="M17.2436 41.3244C17.2436 42.2383 16.2857 43.1487 14.8718 43.1487C13.4579 43.1487 12.5 42.2383 12.5 41.3244C12.5 40.4104 13.4579 39.5 14.8718 39.5C16.2857 39.5 17.2436 40.4104 17.2436 41.3244Z" fill="#E5E5E5"/>
+                            <path d="M17.2436 41.3244C17.2436 42.2383 16.2857 43.1487 14.8718 43.1487C13.4579 43.1487 12.5 42.2383 12.5 41.3244C12.5 40.4104 13.4579 39.5 14.8718 39.5C16.2857 39.5 17.2436 40.4104 17.2436 41.3244Z" stroke="black"/>
+                            <g style="mix-blend-mode:darken">
+                            <ellipse cx="33.5" cy="5" rx="2.5" ry="2" fill="#E5E5E5"/>
+                            <ellipse cx="33.5" cy="5" rx="2.5" ry="2" fill="#E5E5E5"/>
+                            <ellipse cx="33.5" cy="5" rx="2.5" ry="2" fill="#E5E5E5"/>
+                            <ellipse cx="33.5" cy="5" rx="2.5" ry="2" stroke="black"/>
+                            </g>
+                            <path d="M53.2436 41.3244C53.2436 42.2383 52.2857 43.1487 50.8718 43.1487C49.4579 43.1487 48.5 42.2383 48.5 41.3244C48.5 40.4104 49.4579 39.5 50.8718 39.5C52.2857 39.5 53.2436 40.4104 53.2436 41.3244Z" fill="#E5E5E5"/>
+                            <path d="M53.2436 41.3244C53.2436 42.2383 52.2857 43.1487 50.8718 43.1487C49.4579 43.1487 48.5 42.2383 48.5 41.3244C48.5 40.4104 49.4579 39.5 50.8718 39.5C52.2857 39.5 53.2436 40.4104 53.2436 41.3244Z" fill="#E5E5E5"/>
+                            <path d="M53.2436 41.3244C53.2436 42.2383 52.2857 43.1487 50.8718 43.1487C49.4579 43.1487 48.5 42.2383 48.5 41.3244C48.5 40.4104 49.4579 39.5 50.8718 39.5C52.2857 39.5 53.2436 40.4104 53.2436 41.3244Z" fill="#E5E5E5"/>
+                            <path d="M53.2436 41.3244C53.2436 42.2383 52.2857 43.1487 50.8718 43.1487C49.4579 43.1487 48.5 42.2383 48.5 41.3244C48.5 40.4104 49.4579 39.5 50.8718 39.5C52.2857 39.5 53.2436 40.4104 53.2436 41.3244Z" stroke="black"/>
+                            </g>
+                            <defs>
+                            <filter id="filter0_d_119:19" x="0.973679" y="0" width="64.0526" height="62.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                            <feOffset dy="4"/>
+                            <feGaussianBlur stdDeviation="2"/>
+                            <feComposite in2="hardAlpha" operator="out"/>
+                            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_119:19"/>
+                            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_119:19" result="shape"/>
+                            </filter>
+                            </defs>
+                            </svg>
+                            
+                   </div>
+                    <h1 class="text-xl ">
+                        She Codes Too Community
+                       
+                    </h1>
+                    <p class="mt-4 text-gray-500">
+                        We believe in building a large network of women in IT to provide support, guidance, and opportunities.
+                    </p>
+                </div>
+            </div>
+
+
+
+
+
+     <!--courses-->  
+    <div id="courses" class="mt-40 text-center ">
+        <p class="text-6xl font-bold  text-white ">courses</p>
+        <p class="text-3xl   text-white ">Our Workshops</p>
+    </div>
+    <div class=" my-14 mx-16  grid grid-cols-1 md:grid-cols-3 gap-6 xl:gap-8">
+        
+        <div class="w-full opacity-75 flex shadow-lg">
+            <div class="w-full flex md:flex-col rounded-3xl bg-gray-200">
+               <div class=" flex items-center  justify-cente sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
+               
+                <div class="w-full border-b-2 border-gray-500 text-center ">
+                     <p class=" text-3xl  my-14  "> Career Preps Bootcamp</p>   
+                </div>
+               <p class="mt-14">This 8 Weeks bootcamp of extensive classes which focuse on developing the required career skills of the participant, and enable them to get web development jobs.</p>
+               <div class="mb-6 mt-6">
+                <div class=" rounded-full bg-yellow-400 opacity-50 py-3 px-8 cursor-not-allowed  ... "> Application Closed</div> 
+                 </div>    
+            </div>
+                
+            </div>
+
+        </div>
+        <div class="w-full flex shadow-lg">
+            <div class="w-full flex md:flex-col  rounded-3xl bg-gray-200">
+               <div class=" flex items-center justify-cente sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
+                
+                <div class="w-full border-b-2 border-gray-500 text-center  ">
+                    <p class=" text-3xl  my-14  "> Thinking a Programmer</p>   
+               </div>
+               <p class="my-14 ">Weekly meeting where we talk about data strrcture and algorithem!</p>
+               <div class="my-6">
+                   <div class=" rounded-full  bg-yellow-400 py-3 px-8 cursor-pointer  ... "> Click here to Join</div>    </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full  opacity-75 flex shadow-lg">
+            <div class="w-full  flex md:flex-col rounded-3xl bg-gray-100">
+               <div class=" flex items-center  justify-cente sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
+               
+                <div class="w-full border-b-2 border-gray-500 text-center ">
+                     <p class=" text-3xl  my-14  "> Introduction to React</p>   
+                </div>
+                <p class="my-10" >One week of extensive learning about the basics of react.</p>
+                <div class="my-6">
+                    <div class=" rounded-full  bg-yellow-400 opacity-50 py-3 px-8 my-5 cursor-not-allowed  ... "> Application Closed</div>    </div>
+             
+             </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!--ABOUT-->
+    
+        <div id="ABOUT" class=" py-12 px-16 ">
+            <p class="text-6xl font-bold  text-white ">Who’s Behind She Codes Too?</p>
+        </div>
+    
+
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 sm:px-8 sm:py-12 sm:gap-x-8 md:py-16">
+        <div class="relative z-10 col-start-1 row-start-1 px-4 pt-20 pb-3 bg-gradient-to-t from-black sm:bg-none">
+          <p class="text-sm font-medium text-white sm:mb-1 sm:text-gray-500">ABOUT</p>
+          <h2 class="text-xl font-semibold text-white sm:text-3xl sm:leading-7 sm:text-white md:text-3xl">My name is Raghad</h2>
+        </div>
+        <div class="col-start-1 row-start-2 px-4 sm:pb-16">
+          <div class="flex items-center text-xl  my-5 sm:mt-2 sm:mb-4">
+            <div class=" text-gray-200">I’m an assistance lecturer at the university in Baghdad. I keenly observed female students being discouraged from developing their tech skills. This made me want to create a space for them to feel comfortable and empowered to become professional programmers. Hence I started She Codes Too initiative, to helps young women who do not have sufficient programming skills to find a job. The teaching and supervision provided by this initiative will give women the necessary skills and confidence to pursue a career in tech. Creating role models by turning the participation’s projects into successful stories is what the program aims for. Moreover, the future plans involve creating a strong and wide network of alumni who would in turn contribute to the program.</div>
+          </div>
+          <hr class="w-16 border-gray-300 hidden sm:block">
+        </div>
+        <div class="col-start-1 row-start-3 space-y-3 px-4">
+          <p class="flex items-center text-white text-xl font-medium">
+            <img src="mail (1).svg" alt="" class="w-10 h-10 rounded-full mr-2 bg-gray-100">
+            <button type="button" class="bg-gray-400 hover:bg-yellow-300  text-gray-800 hover:text-gray-800 text-base font-semibold px-6 py-2 rounded-full focus:bg-yellow-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-opacity-50 "> raghad.hav@uoitc.edu.iq</button>
+
+          </p>
+        </div>
+        <div class="col-start-1 row-start-1 flex sm:col-start-2 sm:row-span-3">
+          <div class="w-full grid grid-cols-1 grid-rows-1 gap-2">
+            <div class="relative col-span-3 row-span-2 md:col-span-2">
+              <img src="ragad.jpg" alt="" class="absolute inset-0 w-full h-full object-cover bg-gray-100 sm:rounded-2xl" />
+            </div>
+    
+          </div>
+        </div>
+      </div>
+      
+      <!--The Team-->
+      <div class=" py-12 px-16 ">
+        <p class="text-4xl font-bold  text-white  text-center ">Meet The Team </p>
+    </div>
+      <div class=" my-16 mx-16  grid grid-cols-1 md:grid-cols-3 gap-6 xl:gap-8">
+        <div class="w-full  flex opacity-75 shadow-lg">
+            <div class="w-full flex md:flex-col rounded-3xl bg-gray-100">
+               <div class=" flex items-center justify-cente sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
+                <img class="rounded-full h-24 w-24 flex items-center justify-center" src="1.jpg"> 
+                <p class=" text-3xl my-6  "> Abubakr </p>   
+               
+                    
+                <p>Web Developer & WordPress Developer & Flutter UI Develope</p>
+                <div class="col-start-1 row-start-3 space-y-3 ">
+                    <p class="flex items-center text-white text-xl font-medium">
+                      <img src="mail (1).svg" alt="" class="w-5 h-5 mt-2 rounded-full mr-2 bg-gray-100">
+                      <button type="button" class="bg-gray-400 mt-2 text-white text-base font-semibold px-2 py-1 rounded-full"> Abubakr@gmail.com</button>
+          
+                    </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full  flex opacity-75 shadow-lg">
+            <div class="w-full flex md:flex-col rounded-3xl bg-gray-100">
+               <div class=" flex items-center justify-cente sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
+                <img class="rounded-full h-24 w-24 flex items-center justify-center" src="2.jpg"> 
+                <p class=" text-3xl my-6  "> shams</p>   
+               
+                    
+                <p>Fullstack Web Developer & UI/UX Develope </p>
+                <div class="col-start-1 row-start-3 space-y-3 ">
+                    <p class="flex  items-center text-white  font-medium">
+                      <img src="mail (1).svg" alt="" class="w-5 h-5 mt-2 rounded-full mr-2 bg-gray-100">
+                      <button type="button" class="bg-gray-400 mt-2 text-white text-base font-semibold px-2 py-1 rounded-full"> shams@gmail.com</button>
+          
+                    </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="w-full  flex opacity-75 shadow-lg">
+            <div class="w-full flex md:flex-col rounded-3xl bg-gray-100">
+               <div class=" flex items-center justify-cente sm:max-w-sm sm:flex-none md:w-auto md:flex-auto flex flex-col items-start relative z-10 p-6 xl:p-8">
+                <img class="rounded-full h-24 w-24 flex items-center justify-center" src="3.jpg"> 
+                <p class=" text-3xl my-6  "> Mustafa</p>   
+    
+                <p>WebDevloper & Graphic designer at AL-TAMEER </p>
+
+                
+
+                <div class="col-start-1 row-start-3 space-y-3 ">
+                    <p class="inline-block flex items-center text-white  font-medium">
+                      <img src="mail (1).svg" alt="" class="w-5 h-5 mt-2 rounded-full mr-2 bg-gray-100">
+                      <button type="button" class="bg-gray-400 mt-2 text-white text-base font-semibold px-2 py-1 rounded-full"> dev_ofy@gmail.com</button>
+          
+                    </p>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-yellow-400 h-10 text-center opacity-75 ">
+  
+      <h class="text-2xl  text-white  ">She Codes Too;</h>
+
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+
+    <script>
+         let app =new Vue({
+        
+             el:'#app',
+            data:{ 
+             activ:'',
+                  },
+            methods:{   }, })
+   </script>
+
+
+
+</body>
+</html>
